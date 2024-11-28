@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.hide {
+  display: none;
+}
+
+header#hero p {
+  font-size: 32px;
+}
+header#hero {
+  background-image: url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg);
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quantico", sans-serif;
+  text-align: center;
+}
+header#hero h1 {
+  font-size: 58px;
+}
+header#hero .btn {
+  border: solid 3px violet;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+header#hero .btn:hover {
+  background-color: violet;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: violet;
+}
+
+section#intro {
+  color: white;
+  min-hehigt: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  text-align: center;
+  padding: 30px;
+}
+
+section#intro h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Quantico", sans-serif;
+  color: violet;
+}
+
+section#intro p {
+  font-size: 18px;
+  font-familiy: "Quantico", sans-serif;
+  line-height: 32px;
+}
+
+section#servicio {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+  font-family: "Quantico", sans-serif;
+}
+
+section#servicio h2 {
+  color: violet;
+  font-size: 32px;
+  font-family: "Quantico", sans-serif;
+}
+
+section#servicio div.inner {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-direction: center;
+}
+
+section#servicio div.inner div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+section#servicio div.inner div img {
+  width: 200px;
+  height: 180px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+section#servicio iframe {
+  align-item: center;
+}
+
+section#listado {
+  color: white;
+  min-hehigt: 60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  text-align: center;
+  padding: 30px;
+}
+
+section#listado h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Quantico", sans-serif;
+  color: violet;
+}
+
+section#listado p {
+  color: white;
+  font-size: 18px;
+  font-familiy: "Quantico", sans-serif;
+  line-height: 32px;
+}
+
+div#contenedor {
+  display: flex;
+  gap: 50px;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Quantico", sans-serif;
+  border-radius: 8px;
+}
+
+div#contenedor div {
+  padding: 10px;
+  border: solid 1px violet;
+  border-radius: 5px;
+  font-family: "Quantico", sans-serif;
+  text-align: center;
+}
+
+div#contenedor img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+#reviews {
+  font-family: "Quantico", sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#reviews h2 {
+  font-size: 32px;
+  color: violet;
+  margin-bottom: 20px;
+}
+
+#reviews div {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+section#mapa {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: white;
+  font-family: "Quantico", sans-serif;
+}
+
+section#mapa h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: violet;
+}
+
+section#mapa div.inner2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+section#mapa div.inner2 iframe {
+  display: block;
+  width: 500px;
+  height: 200px;
+}
+
+section#mapa div.inner2 div {
+  text-align: left;
+}
+
+section#contacto h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Quantico", sans-serif;
+  color: violet;
+}
+
+section#contacto {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+section#contacto label {
+  color: violet;
+  margin: 10px 0 5px;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section#contacto button {
+  transition: 2s;
+  padding: 10px;
+  box-shadow: 0px 0px 2px violet;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50px;
+  color: violet;
+  text-decoration: none;
+}
+
+section#contacto button:hover {
+  background: none;
+  padding: 20px;
+}
+
+.social {
+  text-align: center;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  font-family: "Quantico", sans-serif;
+}
+
+.social h2 {
+  font-size: 32px;
+  color: violet;
+  margin-bottom: 20px;
+}
+
+.social ul {
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}

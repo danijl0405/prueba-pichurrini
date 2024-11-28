@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documento</title>
+</head>
+<body>
+  <!--<p> Esto es para hacer comentarios en HTML </p>-->
+  <!--<p> H1 es el titulo "sub" es para editar el numero del titulo por ejemplo</p>-->
+
+  <h1>LENGUAJE DE MARCAS w<sub>3</sub>c</h1>
+  <!--<p> hr es una linea que separa </p>-->
+  
+  <hr> <h2>Introduccion</h2>
+  <!--<p> H2 se suele usar para la Introduccion </p>-->
+
+  <!--<p> "P" es parrafo  y "br" se usa para saltar linea </p>-->
+ <p>Esto es un parrafo. <br> Salto de parrafo</p> 
+  <p>parrafo 2</p>
+  <p>parrafo 3 <br> Salto de parrafo</p>
+
+  <!--<p> "Strong" es para poner la negrita </p>-->
+  <p><strong>Hola</strong></p>
+
+  <!--<p> "EM" es para poner la cursiva </p>-->
+  <p><em>Hola</em></p>
+
+  <!--<p> la "U" es para subrayar el texto </p>-->
+  <p><u>Hola</u></p>
+
+  <!--<p> la "S" es para tachar el texto </p>-->
+  <p><s>Hola</s></p>
+
+  <!--<p> "SMALL" es como si fuera un "subtitulo" </p>-->
+  <h1>Hola <small>Mundo</small></h1>
+
+  <!--<p> "PRE" para que los espacios esten bien dentro de los codigos por ej </p>-->
+  <pre>Class Intro{
+   public static void main()
+    <System class="out.println">("Hola a todos");
+    </System>
+    </pre>
+  }
+  <!--<p> "Q" pone comillas </p>-->
+  <q>origen de la cita Hola</q>
+
+  <!--<p> "BLOCKQUOTE" da como un espaciado, una especie de sangria </p>-->
+  <blockquote>Hola mundo</blockquote>
+
+  <!--<p> "abbr" es para abreviar y con la etiqueta title se pone el nombre completo </p>-->
+  <p><abbr title="Cascade Style Sheet">CSS</abbr></p>
+  <p><cite>Indica el titulo de algo en cursiva</cite></p>
+
+  <!--<p> "details" es para cerrar y abrir en la pagina web</p>-->
+  <!--<p> "summary" es para cambiar el nombre de los "details"</p>-->
+  <details> <summary> texto para ver mas </summary> <p> parrafo. <br> Salto de parrafo</p> 
+  <p>parrafo 2</p>
+  <p>parrafo 3 <br> Salto de parrafo</p>
+  
+ <!--<p> "ul" es lista desordenada (pone puntos) "ol" lista ordenada (numeradas)</p>-->
+ <h1>Lista de la compra</h1>
+<hr>
+<ol type ="a">
+<li>Huevos</li>
+<li>Galletas</li>
+</ol>
+<!--<p> "ul" dentro de un "ol" desordena una parte de una lista enumerada</p>-->
+<ul>
+<li>Leche</li>
+<li>Cafe</li>
+<li>Cereales</li>
+</ul>
+<!--<p> "li" es lista</p>-->
+<li>Chocolate</li>
+
+</body>
+</html>
+
+ <!--<p>FORMULARIOS</p>-->
+
+<h2>Reserva de restaurante</h2>
+<!--<p>Crea como un formulario dentro de una pagina. El method puede ser get("es el estandar") o post</p>-->
+<form action="https://edit.org/edit" target ="_blank" method ="get">
+<fieldset><!--<p> Crea cajas para cerrar las celdas</p>-->
+ <Legend><strong>Datos de contacto</strong></Legend>
+ <!--<p> Crea celdas para rellenar</p>-->
+<p>
+<label for="Nombre">Nombre: <br></label> <!--<p>Te mete dentro de la celda si pinchas en nombre</p>-->
+<input id="Nombre">
+</p>
+<p>Apellido: <br><input name "Apellido"></p>
+</fieldset>
+<fieldset>
+<legend>Datos de reserva</legend>
+<p>Nº de personas: <br><input type="number" name="Personas" min="1" max="10"> </input></p>
+<p>Fecha: <br><input type= "datetime-local" name "Fecha"></p
+<p>Email: <br><input type= "Email" name "Email"></p>
+</fieldset>
+<!--<p>Boton de Enviar</p>-->
+ <button>Enviar</button>
+</form>
+
+
+
+
+<h2>Pedido de pizza</h2>
+
+<!--<p>"form action target" Es para que te mande a otra pagina sin perder la anterior que tenias abierta</p>-->
+<form action="https://debug.wiweb.es" target="_blank">
+
+  <!--<p>"Fieldset" agrupa elementos relacionados dentro de un formulario</p>-->
+  <!--<p>"Legend" proporciona un título a un formulario </p>-->
+  <fieldset>
+<legend>La Pizza</legend>
+<p>Ingredientes</p>
+ <p>
+<!--<p>"input" crea campos de textos en un formulario</p>-->
+<!--<p>"label" asocia el campo de texto con el texto que haya</p>-->
+<!--<p>"checkbox" crea un boton de forma cuadrada para seleccionar</p>-->
+<input type="checkbox" id="queso" name="queso">
+<label for="queso">Queso</label>
+</p>
+
+<p>
+<input type="checkbox" id="pimiento" name="pimiento">
+<label for="pimiento">Pimiento</label>
+</p>
+
+<p>
+<input type="checkbox" id="cebolla" name="cebolla">
+<label for="cebolla">Cebolla</label>
+</p>
+
+<p>Tamaño</p>
+<!--<p>"radio" crea un boton de forma redonda para seleccionar</p>-->
+<p>
+<input type="radio" id="pequeña" name="tamaño" value="S">
+<label for="pequeña">Pequeña</label>
+</p>
+
+<p>
+<input type="radio" id="mediana" name="tamaño" value="M">
+<label for="mediana">Mediana</label>
+</p>
+
+<p>
+<input type="radio" id="grande" name="tamaño" value="L">
+<label for="grande">Grande</label>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>Datos de entrega</legend>
+
+<p>
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" name="nombre">
+</p>
+<p>
+<label for="direccion">Dirección</label>
+ <input type="text" id="direccion" name="direccion">
+</p>
+<p>
+<label for="telefono">Teléfono</label>
+<input type="tel" id="telefono" name="telefono">
+</p>
+
+<p>
+<label for="instrucciones">Instrucciones especiales</label>
+<textarea id="instrucciones" rows="10" cols="30" placeholder="Escribe aqui..."></textarea>
+</p>
+
+</fieldset>
+<fieldset>
+<legend>Método de pago</legend>
+<!--<p> "Select" crear un menú desplegable que permite a los usuarios seleccionar una opción de una
+  y "Option" son las opciones que adjudicamos al desplegable </p>-->
+<select name="pago" id="pago" name="metodo">
+<option value="cash">Efectivo</option>
+<option value="card">Tarjeta</option>
+</select>
+</fieldset>
+<!--<p>"button" crea un boton al final del formulario para enviar ese formulario</p>-->
+  <button>Ok</button>
+</form>
+
+
+<!--<p>La etiqueta <video> define el contenedor del video.
+Los atributos "width" y "height" establecen el tamaño del video.
+El atributo "controls" añade controles de reproducción (play, pause, etc.).
+Las etiquetas <source> especifican las rutas y tipos de archivo del video.
+El texto dentro de la etiqueta <video> se muestra si el navegador no soporta la etiqueta.</p>-->
+
+<!--<p>La etiqueta <audio> define el contenedor del audio.
+El atributo "controls" añade controles de reproducción.
+Las etiquetas <source> especifican las rutas y tipos de archivo del audio.
+El texto dentro de la etiqueta <audio> se muestra si el navegador no soporta la etiqueta </p>-->
